@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 #pageContainer {
@@ -13,19 +14,30 @@
 #headerDiv {
     grid-column: 1/3;
     grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
 }
 
-#SectionDiv {
-    grid-column: 1/2;
-    grid-row: 2/3;
+#headerChildDiv {
+    position: relative;
+    width: 100%;
 }
 
-#AsideDiv {
-    grid-column: 2/3;
-    grid-row: 2/3;
+#title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(1.75rem, 4vw, 3rem);
 }
 
-#FooterDiv {
-    grid-column: 1/3;
-    grid-row: 3/4;
+#buttonContainer {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+#buttonContainer button {
+    padding: 0.5rem
 }
