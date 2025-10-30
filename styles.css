@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    background-color: #F9FAFB;
 }
 
 #pageContainer {
@@ -18,6 +19,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
+    background-color: #0A192F;
+}
+
+h1, #buttonContainer {
+    background-color: #0A192F;
+    color: #F9FAFB;
 }
 
 #headerChildDiv {
@@ -47,4 +54,8 @@
     flex-direction: column;
     justify-content: center;
     height: 50vh;
+}
+
+#projectsDiv, #contactDiv {
+    display: none;
 }
