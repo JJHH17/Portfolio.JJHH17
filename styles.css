@@ -54,6 +54,11 @@ h1, #buttonContainer {
     flex-direction: column;
     justify-content: center;
     height: 50vh;
+    background-color: #0A192F;
+}
+
+#SectionDiv { 
+    background-color: #0A192F;
 }
 
 #projectsDiv, #contactDiv {
