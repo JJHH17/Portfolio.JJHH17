@@ -13,3 +13,9 @@ projectsBtn.onclick = () => {
     projectsDiv.style.display = "block"
     contactDiv.style.display = "none"
 }
+
+ContactBtn.onclick = () => {
+    aboutMeDiv.style.display = "none"
+    projectsDiv.style.display = "none"
+    contactDiv.style.display = "block"
+}
