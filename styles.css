@@ -46,8 +46,6 @@ h1, h2 {
     grid-row: 3 / 4;
 }
 
-
-
 h1, #buttonContainer {
     background-color: #0A192F;
     color: #F9FAFB;
@@ -103,6 +101,12 @@ h1, #buttonContainer {
     font-size: large;
 }
 
-#aboutMeDiv>p, #projectsDiv>p {
+#aboutMeDiv>p, #projectsDiv>p, #contactDiv>p {
     text-align: center;
+}
+
+#GitHubButton img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
