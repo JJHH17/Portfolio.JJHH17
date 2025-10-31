@@ -91,3 +91,18 @@ h1, #buttonContainer {
 #projectsDiv, #contactDiv {
     display: none;
 }
+
+#projectTitle, #contactTitle, #aboutTitle {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#ecommerceLink, #codingTrackerLink, #sportsNotifyLink {
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: large;
+}
+
+#aboutMeDiv>p, #projectsDiv>p {
+    text-align: center;
+}
