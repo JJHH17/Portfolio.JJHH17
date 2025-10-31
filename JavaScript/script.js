@@ -10,7 +10,8 @@ aboutMeBtn.onclick = () => {
 
 projectsBtn.onclick = () => {
     aboutMeDiv.style.display = "none"
-    projectsDiv.style.display = "block"
+    projectsDiv.style.display = "flex"
+    projectsDiv.style.flexDirection = "column"
     contactDiv.style.display = "none"
 }
 
