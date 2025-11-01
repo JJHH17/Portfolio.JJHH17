@@ -110,3 +110,15 @@ h1, #buttonContainer {
   height: 50px;
   object-fit: contain;
 }
+
+#LinkedinButton img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+#FooterText {
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+}
